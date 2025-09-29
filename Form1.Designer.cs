@@ -31,13 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
             label5 = new Label();
             btnguardar = new Button();
             txtnombre = new TextBox();
-            txtapellido = new TextBox();
-            txtcorreo = new TextBox();
             txtcontra = new TextBox();
             button2 = new Button();
             panel1 = new Panel();
@@ -63,37 +59,17 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Italic);
-            label2.Location = new Point(125, 165);
+            label2.Location = new Point(146, 186);
             label2.Name = "label2";
-            label2.Size = new Size(61, 20);
+            label2.Size = new Size(58, 20);
             label2.TabIndex = 1;
-            label2.Text = "Nombre";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 11.25F, FontStyle.Italic);
-            label3.Location = new Point(125, 199);
-            label3.Name = "label3";
-            label3.Size = new Size(61, 20);
-            label3.TabIndex = 2;
-            label3.Text = "Apellido";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 11.25F, FontStyle.Italic);
-            label4.Location = new Point(125, 235);
-            label4.Name = "label4";
-            label4.Size = new Size(126, 20);
-            label4.TabIndex = 3;
-            label4.Text = "Correo Electronico";
+            label2.Text = "Usuario";
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 11.25F, FontStyle.Italic);
-            label5.Location = new Point(125, 269);
+            label5.Location = new Point(146, 233);
             label5.Name = "label5";
             label5.Size = new Size(82, 20);
             label5.TabIndex = 4;
@@ -108,9 +84,9 @@
             btnguardar.FlatAppearance.MouseDownBackColor = Color.SteelBlue;
             btnguardar.FlatStyle = FlatStyle.Flat;
             btnguardar.Font = new Font("Segoe UI", 9.75F, FontStyle.Italic);
-            btnguardar.Location = new Point(267, 322);
+            btnguardar.Location = new Point(247, 316);
             btnguardar.Name = "btnguardar";
-            btnguardar.Size = new Size(94, 29);
+            btnguardar.Size = new Size(162, 29);
             btnguardar.TabIndex = 5;
             btnguardar.Text = "Ingresar";
             btnguardar.UseVisualStyleBackColor = false;
@@ -118,28 +94,14 @@
             // 
             // txtnombre
             // 
-            txtnombre.Location = new Point(257, 162);
+            txtnombre.Location = new Point(257, 187);
             txtnombre.Name = "txtnombre";
             txtnombre.Size = new Size(134, 23);
             txtnombre.TabIndex = 6;
             // 
-            // txtapellido
-            // 
-            txtapellido.Location = new Point(257, 199);
-            txtapellido.Name = "txtapellido";
-            txtapellido.Size = new Size(134, 23);
-            txtapellido.TabIndex = 7;
-            // 
-            // txtcorreo
-            // 
-            txtcorreo.Location = new Point(257, 235);
-            txtcorreo.Name = "txtcorreo";
-            txtcorreo.Size = new Size(134, 23);
-            txtcorreo.TabIndex = 8;
-            // 
             // txtcontra
             // 
-            txtcontra.Location = new Point(257, 270);
+            txtcontra.Location = new Point(257, 234);
             txtcontra.Name = "txtcontra";
             txtcontra.Size = new Size(134, 23);
             txtcontra.TabIndex = 9;
@@ -201,12 +163,8 @@
             Controls.Add(panel1);
             Controls.Add(btnguardar);
             Controls.Add(txtcontra);
-            Controls.Add(txtcorreo);
-            Controls.Add(txtapellido);
             Controls.Add(txtnombre);
             Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
             Controls.Add(label2);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
@@ -224,13 +182,9 @@
 
         private Label label1;
         private Label label2;
-        private Label label3;
-        private Label label4;
         private Label label5;
         private Button btnguardar;
         private TextBox txtnombre;
-        private TextBox txtapellido;
-        private TextBox txtcorreo;
         private TextBox txtcontra;
         private Button button2;
         private Panel panel1;
