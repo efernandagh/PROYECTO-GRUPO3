@@ -31,26 +31,26 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             menuStrip1 = new MenuStrip();
             móduloProyectosToolStripMenuItem = new ToolStripMenuItem();
-            móduloServiciosToolStripMenuItem = new ToolStripMenuItem();
-            móduloInventarioToolStripMenuItem = new ToolStripMenuItem();
-            móduloFacturaciónToolStripMenuItem = new ToolStripMenuItem();
-            móduloAdministraciónToolStripMenuItem = new ToolStripMenuItem();
             proyectoInventarioToolStripMenuItem = new ToolStripMenuItem();
             seguimientoToolStripMenuItem = new ToolStripMenuItem();
             contratosToolStripMenuItem = new ToolStripMenuItem();
             procesosToolStripMenuItem = new ToolStripMenuItem();
+            móduloServiciosToolStripMenuItem = new ToolStripMenuItem();
             serviciosToolStripMenuItem = new ToolStripMenuItem();
             clientesToolStripMenuItem = new ToolStripMenuItem();
+            móduloInventarioToolStripMenuItem = new ToolStripMenuItem();
             inventarioToolStripMenuItem = new ToolStripMenuItem();
             proveedoresToolStripMenuItem = new ToolStripMenuItem();
+            móduloFacturaciónToolStripMenuItem = new ToolStripMenuItem();
             facturasToolStripMenuItem = new ToolStripMenuItem();
             pagosToolStripMenuItem = new ToolStripMenuItem();
+            móduloAdministraciónToolStripMenuItem = new ToolStripMenuItem();
             usuariosToolStripMenuItem = new ToolStripMenuItem();
             rolesToolStripMenuItem = new ToolStripMenuItem();
-            label1 = new Label();
             aRCHIVOToolStripMenuItem = new ToolStripMenuItem();
             gUARDARToolStripMenuItem = new ToolStripMenuItem();
             sALIRToolStripMenuItem = new ToolStripMenuItem();
+            label1 = new Label();
             panel1 = new Panel();
             pictureBox2 = new PictureBox();
             menuStrip1.SuspendLayout();
@@ -74,34 +74,6 @@
             móduloProyectosToolStripMenuItem.Name = "móduloProyectosToolStripMenuItem";
             móduloProyectosToolStripMenuItem.Size = new Size(148, 24);
             móduloProyectosToolStripMenuItem.Text = "Módulo Proyectos";
-            // 
-            // móduloServiciosToolStripMenuItem
-            // 
-            móduloServiciosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { serviciosToolStripMenuItem, clientesToolStripMenuItem });
-            móduloServiciosToolStripMenuItem.Name = "móduloServiciosToolStripMenuItem";
-            móduloServiciosToolStripMenuItem.Size = new Size(141, 24);
-            móduloServiciosToolStripMenuItem.Text = "Módulo Servicios";
-            // 
-            // móduloInventarioToolStripMenuItem
-            // 
-            móduloInventarioToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { inventarioToolStripMenuItem, proveedoresToolStripMenuItem });
-            móduloInventarioToolStripMenuItem.Name = "móduloInventarioToolStripMenuItem";
-            móduloInventarioToolStripMenuItem.Size = new Size(150, 24);
-            móduloInventarioToolStripMenuItem.Text = "Módulo inventario";
-            // 
-            // móduloFacturaciónToolStripMenuItem
-            // 
-            móduloFacturaciónToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { facturasToolStripMenuItem, pagosToolStripMenuItem });
-            móduloFacturaciónToolStripMenuItem.Name = "móduloFacturaciónToolStripMenuItem";
-            móduloFacturaciónToolStripMenuItem.Size = new Size(160, 24);
-            móduloFacturaciónToolStripMenuItem.Text = "Módulo Facturación";
-            // 
-            // móduloAdministraciónToolStripMenuItem
-            // 
-            móduloAdministraciónToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { usuariosToolStripMenuItem, rolesToolStripMenuItem });
-            móduloAdministraciónToolStripMenuItem.Name = "móduloAdministraciónToolStripMenuItem";
-            móduloAdministraciónToolStripMenuItem.Size = new Size(186, 24);
-            móduloAdministraciónToolStripMenuItem.Text = "Módulo Administración";
             // 
             // proyectoInventarioToolStripMenuItem
             // 
@@ -131,72 +103,89 @@
             procesosToolStripMenuItem.Size = new Size(216, 24);
             procesosToolStripMenuItem.Text = "Procesos";
             // 
+            // móduloServiciosToolStripMenuItem
+            // 
+            móduloServiciosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { serviciosToolStripMenuItem, clientesToolStripMenuItem });
+            móduloServiciosToolStripMenuItem.Name = "móduloServiciosToolStripMenuItem";
+            móduloServiciosToolStripMenuItem.Size = new Size(141, 24);
+            móduloServiciosToolStripMenuItem.Text = "Módulo Servicios";
+            // 
             // serviciosToolStripMenuItem
             // 
             serviciosToolStripMenuItem.Image = Properties.Resources.SERVICIOS;
             serviciosToolStripMenuItem.Name = "serviciosToolStripMenuItem";
-            serviciosToolStripMenuItem.Size = new Size(180, 24);
+            serviciosToolStripMenuItem.Size = new Size(140, 24);
             serviciosToolStripMenuItem.Text = "Servicios";
             // 
             // clientesToolStripMenuItem
             // 
             clientesToolStripMenuItem.Image = Properties.Resources.CLIENTE;
             clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            clientesToolStripMenuItem.Size = new Size(180, 24);
+            clientesToolStripMenuItem.Size = new Size(140, 24);
             clientesToolStripMenuItem.Text = "Clientes";
+            // 
+            // móduloInventarioToolStripMenuItem
+            // 
+            móduloInventarioToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { inventarioToolStripMenuItem, proveedoresToolStripMenuItem });
+            móduloInventarioToolStripMenuItem.Name = "móduloInventarioToolStripMenuItem";
+            móduloInventarioToolStripMenuItem.Size = new Size(150, 24);
+            móduloInventarioToolStripMenuItem.Text = "Módulo inventario";
             // 
             // inventarioToolStripMenuItem
             // 
             inventarioToolStripMenuItem.Image = Properties.Resources.INVENTARIOOO;
             inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-            inventarioToolStripMenuItem.Size = new Size(180, 24);
+            inventarioToolStripMenuItem.Size = new Size(165, 24);
             inventarioToolStripMenuItem.Text = "Inventario";
             // 
             // proveedoresToolStripMenuItem
             // 
             proveedoresToolStripMenuItem.Image = Properties.Resources.PROVEEDORES;
             proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            proveedoresToolStripMenuItem.Size = new Size(180, 24);
+            proveedoresToolStripMenuItem.Size = new Size(165, 24);
             proveedoresToolStripMenuItem.Text = "Proveedores";
+            // 
+            // móduloFacturaciónToolStripMenuItem
+            // 
+            móduloFacturaciónToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { facturasToolStripMenuItem, pagosToolStripMenuItem });
+            móduloFacturaciónToolStripMenuItem.Name = "móduloFacturaciónToolStripMenuItem";
+            móduloFacturaciónToolStripMenuItem.Size = new Size(160, 24);
+            móduloFacturaciónToolStripMenuItem.Text = "Módulo Facturación";
             // 
             // facturasToolStripMenuItem
             // 
             facturasToolStripMenuItem.Image = Properties.Resources.FACTURAS;
             facturasToolStripMenuItem.Name = "facturasToolStripMenuItem";
-            facturasToolStripMenuItem.Size = new Size(180, 24);
+            facturasToolStripMenuItem.Size = new Size(137, 24);
             facturasToolStripMenuItem.Text = "Facturas";
             // 
             // pagosToolStripMenuItem
             // 
             pagosToolStripMenuItem.Image = Properties.Resources.PAGOS;
             pagosToolStripMenuItem.Name = "pagosToolStripMenuItem";
-            pagosToolStripMenuItem.Size = new Size(180, 24);
+            pagosToolStripMenuItem.Size = new Size(137, 24);
             pagosToolStripMenuItem.Text = "Pagos";
+            // 
+            // móduloAdministraciónToolStripMenuItem
+            // 
+            móduloAdministraciónToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { usuariosToolStripMenuItem, rolesToolStripMenuItem });
+            móduloAdministraciónToolStripMenuItem.Name = "móduloAdministraciónToolStripMenuItem";
+            móduloAdministraciónToolStripMenuItem.Size = new Size(186, 24);
+            móduloAdministraciónToolStripMenuItem.Text = "Módulo Administración";
             // 
             // usuariosToolStripMenuItem
             // 
             usuariosToolStripMenuItem.Image = Properties.Resources.USUARIOS;
             usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            usuariosToolStripMenuItem.Size = new Size(180, 24);
+            usuariosToolStripMenuItem.Size = new Size(139, 24);
             usuariosToolStripMenuItem.Text = "Usuarios";
             // 
             // rolesToolStripMenuItem
             // 
             rolesToolStripMenuItem.Image = Properties.Resources.ROLES;
             rolesToolStripMenuItem.Name = "rolesToolStripMenuItem";
-            rolesToolStripMenuItem.Size = new Size(180, 24);
+            rolesToolStripMenuItem.Size = new Size(139, 24);
             rolesToolStripMenuItem.Text = "Roles";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(374, 192);
-            label1.Name = "label1";
-            label1.Size = new Size(116, 45);
-            label1.TabIndex = 0;
-            label1.Text = "MENU";
-            label1.Click += label1_Click;
             // 
             // aRCHIVOToolStripMenuItem
             // 
@@ -209,15 +198,26 @@
             // 
             gUARDARToolStripMenuItem.Image = Properties.Resources.GUARDAR;
             gUARDARToolStripMenuItem.Name = "gUARDARToolStripMenuItem";
-            gUARDARToolStripMenuItem.Size = new Size(180, 24);
+            gUARDARToolStripMenuItem.Size = new Size(153, 24);
             gUARDARToolStripMenuItem.Text = "GUARDAR";
             // 
             // sALIRToolStripMenuItem
             // 
             sALIRToolStripMenuItem.Image = Properties.Resources.SALIR;
             sALIRToolStripMenuItem.Name = "sALIRToolStripMenuItem";
-            sALIRToolStripMenuItem.Size = new Size(180, 24);
+            sALIRToolStripMenuItem.Size = new Size(153, 24);
             sALIRToolStripMenuItem.Text = "SALIR";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(374, 192);
+            label1.Name = "label1";
+            label1.Size = new Size(116, 45);
+            label1.TabIndex = 0;
+            label1.Text = "MENU";
+            label1.Click += label1_Click;
             // 
             // panel1
             // 
@@ -231,7 +231,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(399, 240);
+            pictureBox2.Location = new Point(402, 240);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(69, 64);
             pictureBox2.TabIndex = 18;
